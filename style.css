@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ECE9FD;
+}
+
+h3 {
+  font-family: 'Epilogue';
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+
+  color: #7158EF;
+}
+
+h1 {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.0rem;
+  line-height: 4.8rem;
+
+  color: #090039;
+}
+
+p {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+
+  color: rgba(10, 0, 57, 0.64);
+}
+
+a {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+
+  color: #090039;
+
+  text-decoration: none;
+}
+
+ul li {
+  font-family: 'Epilogue';
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8.0rem;
+  /* identical to box height, or 111% */
+
+  letter-spacing: -2px;
+
+  /* Text_Dark */
+
+  color: #090039;
+}

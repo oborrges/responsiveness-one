@@ -13,6 +13,11 @@ body {
   font-family: 'Epilogue', sans-serif;
 }
 
+.page {
+  max-width: 33.0rem;
+  margin: 0 auto ;
+}
+
 h3 {
   font-weight: 400;
   font-size: 1.6rem;
@@ -21,7 +26,9 @@ h3 {
   letter-spacing: 3px;
   text-transform: uppercase;
 
-  color: #7158EF;
+  color: rgba(10, 0, 57, 0.64);
+  
+  margin:6.0rem 0 1.7rem 0;
 }
 
 h1 {
@@ -30,6 +37,8 @@ h1 {
   line-height: 4.8rem;
 
   color: #090039;
+
+  margin-bottom: 1.7rem;
 }
 
 p {
@@ -38,6 +47,8 @@ p {
   line-height: 3.2rem;
 
   color: rgba(10, 0, 57, 0.64);
+
+  margin-bottom: 3.2rem;
 }
 
 a {
@@ -50,16 +61,33 @@ a {
   text-decoration: none;
 }
 
-ul li {
-  width: 25.7rem;
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 7.2rem;
+  list-style: none;
 
   display: flex;
+  flex-direction: column;
+
+  gap: 3.2rem;
+}
+
+ul li {
+  max-width: 30.rem;
 
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
 
   color: #090039;
+
+  display: flex;
+  gap: 3.8rem;
+  
 }
 
 ul li span {

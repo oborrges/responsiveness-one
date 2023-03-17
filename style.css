@@ -67,7 +67,7 @@ a:hover {
 }
 
 ul {
-  margin-top: 7.2rem;
+  margin: 7.2rem 0 6.0rem 0;
   list-style: none;
 
   display: flex;
@@ -87,7 +87,10 @@ ul li {
 
   display: flex;
   gap: 3.8rem;
-  
+}
+
+ul li:nth-child(1) {
+  gap: 4.9rem;
 }
 
 ul li span {
@@ -98,4 +101,27 @@ ul li span {
   letter-spacing: -2px;
 
   color: #090039;
+}
+
+@media (min-width: 700px) {
+  .page {
+    display: flex;
+    gap: 70px;
+
+    max-width: 1020px;
+    padding: 4rem;
+  }
+
+  .left {
+    max-width: 450px;
+  }
+
+  ul {
+    max-width: 500px;
+  }
+
+  ul li {
+    display: flex;
+    align-items: center;
+  }
 }
